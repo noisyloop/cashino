@@ -7,8 +7,11 @@ A portfolio-grade **Casino Management System (CMS) simulator** that mirrors how 
 
 ![cashino floor dashboard](docs/screenshots/dashboard.png)
 
-_Status: work in progress — the full backend, simulator, and dashboard are being built on this branch. This screenshot is a
-preview of the floor layout and will be replaced with a capture of the running dashboard._
+_Status: work in progress. Done so far: the event model and wire protocol (`internal/event`), the domain modules
+(`internal/accounting`, `tito`, `players`, `bonus`, `progressive`, `alerts`), the core apply loop and batching writer
+(`internal/core`), and the PostgreSQL schema (`internal/store/migrations`). The store, machine interface, API,
+simulator, dashboard, Docker setup and tests aren't written yet. The screenshot is a static preview of the floor layout,
+not the running app._
 
 ## Planned components
 
